@@ -42,25 +42,25 @@ In summary, Telegram bot development is an engaging pursuit for software enthusi
 The details for each task parts are clearly defined in the readme of respective tasks but the overall structure looks as follows:
 
 **Part 1: Introduction to Telegram Bot**
-[Details](https://github.com/blenassefa2/Telegram-Bot-Learning-Path/edit/main/Part_1)
+[Details](https://github.com/RealEskalate/Remote-G4-Telegram-Bot-Learning-Path/tree/main/Part_1)
 - Understand the recommended folder structure and the concept of long polling.
 - Create your first Telegram bot using BotFather.
 - Host the bot on PythonAnywhere.
 - Develop custom commands with the Aiogram library.
 
 **Part 2: Experiment with Keyboard Types and Callbacks**
-[Details](https://github.com/blenassefa2/Telegram-Bot-Learning-Path/edit/main/Part_2)
+[Details](https://github.com/RealEskalate/Remote-G4-Telegram-Bot-Learning-Path/tree/main/Part_2)
 - Explore different keyboard types, understand their uses, and learn how to implement them.
 - Complete tasks involving the creation of inline keyboards and reply keyboards.
 - Develop callback functions and integrate them with inline keyboards for effective user communication.
 
 **Part 3: Concept of Finite State Machine and User Registration**
-[Details](https://github.com/blenassefa2/Telegram-Bot-Learning-Path/edit/main/Part_3)
+[Details](https://github.com/RealEskalate/Remote-G4-Telegram-Bot-Learning-Path/tree/main/Part_3)
 - Gain an understanding of the finite state machine concept and how it is used in Telegram bots.
 - Implement user registration using Finite State Machines.
 
 **Part 4: Connect with Database and Finalize**
-[Details](https://github.com/blenassefa2/Telegram-Bot-Learning-Path/edit/main/Part_4)
+[Details](hhttps://github.com/RealEskalate/Remote-G4-Telegram-Bot-Learning-Path/tree/mainPart_4)
 - Save user data on MongoDB.
 - Implement other static data components by connecting them to MongoDB.
 - Finalize the project by improving the user interface, fixing bugs, conducting thorough testing, and hosting the bot on PythonAnywhere.
