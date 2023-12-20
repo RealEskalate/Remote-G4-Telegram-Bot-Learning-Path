@@ -2,4 +2,4 @@
 
 # Done by: Blen
 # Bot Commands implemented: `/start`
-# Update to check if webhook is working
+# Update to check if webhook is working properly
