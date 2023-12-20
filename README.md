@@ -21,7 +21,7 @@ In this phase, we'll cover essential topics, and although we won't delve into ad
 
 Example: `git checkout -b Blen.Task.1 `
 
-### 3. After getting on your branch, copy the whole folder in the specific task you are in and rename it with your name. 
+### 3. After getting on your branch, Create a new folder in the specific task you are in and rename it with your name. Your solution must be entirely inside this new folder.
 Example 
 ![image](https://github.com/blenassefa2/Telegram-Bot-Learning-Path/assets/62964622/02fcbfe9-55a9-495f-9fef-f357ed5a0da1)
 
