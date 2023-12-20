@@ -9,7 +9,7 @@ Welcome to the Group 4 A2SV Remote Second Year Telegram Bot Development Phase. T
 - ReplyKeyboard, InlineKeyboard, and callbacks
 - Webhook (optional)
 
-In this phase, we'll cover essential topics, and although we won't delve into advanced concepts, learners interested in exploring Telegram bot development further can find additional carefully selected resources in the 'Additional Resources' section.
+In this phase, we'll cover essential topics, and although we won't delve into advanced concepts, learners interested in exploring Telegram bot development further can find additional carefully selected resources in the 'Resources' section.
 
 ## Getting Started
 
