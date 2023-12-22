@@ -1,6 +1,6 @@
 # Part 2: Introduction To Telegram Bot Keyboards And Callbacks
 
-Welcome to Part 2 of the A2SV Remote Second Year Telegram Bot Development Phase! In this section, we'll delve into keybord types in telegram bot using aiogram library. To get a hands on experience you will be building keyboards to take your user's preference and send data based on the user's order. In the Excercise folder there will be a data stored in 
+Welcome to Part 2 of the A2SV Remote Second Year Telegram Bot Development Phase! In this section, we'll delve into keybord types in telegram bot using aiogram library. To get a hands on experience you will be building keyboards to take your user's preference and send data based on the user's order.
 
 ## Getting Started
 
