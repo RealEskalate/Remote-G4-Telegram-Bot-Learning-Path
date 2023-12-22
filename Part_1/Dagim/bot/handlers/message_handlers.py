@@ -13,7 +13,7 @@ async def start_handler(message: types.Message):
 
 @message_router.message(Command('help'))
 async def start_handler(message: types.Message):
-    await message.reply("Hello, This is a Help command\n type /start - to get started\n /chat - to start chatting")
+    await message.reply("Hello, This is a Help command\n /start - to get started\n /help - to see help\n /chat - to start chatting")
 
 
 @message_router.message(Command('chat'))

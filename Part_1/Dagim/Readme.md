@@ -1,4 +1,4 @@
-# Implementation of this example bot is deployed and it is found by the telegram handle [@A2SV_Remote_Part_1_Example_bot](https://t.me/A2SV_Remote_Part_1_Example_bot)
+# Implementation of this example bot is deployed and it is found by the telegram handle [@a2sv_part_one](https://https://t.me/a2sv_part_one_bot)
 
 # Done by: Dagim
 # Bot Commands implemented: `/start`, `/chat`, `/help`
