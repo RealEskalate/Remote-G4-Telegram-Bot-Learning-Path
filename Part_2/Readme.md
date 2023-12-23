@@ -43,7 +43,7 @@ To begin this exercise, follow these detailed steps (If you haven't done them al
         - When your custom buttons are clicked there must be some visible action
 
 ### 5. Create other inline buttons with callback:
-    - In addition to redirecting to a url inline buttons can be used for doing callback queries
+    - In addition to redirecting to a url, inline buttons can be used for doing callback queries
     - **Task:** create other inline buttons: make sure to add callbacks and do some actions
 
 ### 6. Host on PythonAnywhere
