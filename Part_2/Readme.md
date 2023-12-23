@@ -36,16 +36,15 @@ To begin this exercise, follow these detailed steps (If you haven't done them al
 
 ### 4.Create inline buttons:
    - On your second Telegram bot you created on step 2, build inline keyboard buttons
-   - **Task:** create inline buttons: Register phone, Register location and one or more custom buttons <br> 
+   - **Task:** create inline buttons: Register phone and one or more custom buttons <br> 
    Note: 
         - All buttons should appear after the `/start` command is sent by the user
-        - When Register phone is clicked the user should be prompted to share their phone
-        - When Register location is clicked the user should be prompted to share their location
+        - When Register phone is clicked the user should be prompted to share their phone via text
         - When your custom buttons are clicked there must be some visible action
 
 ### 5. Create other inline buttons with callback:
     - In addition to redirecting to a url inline buttons can be used for doing callback queries
-    - **Task:** create other inline buttons: make sure to add callbacks and do some 
+    - **Task:** create other inline buttons: make sure to add callbacks and do some actions
 
 ### 6. Host on PythonAnywhere
 
