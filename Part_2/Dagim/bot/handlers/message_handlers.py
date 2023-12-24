@@ -81,7 +81,7 @@ async def handle_inlines(call: types.CallbackQuery):
             one_time_keyboard=True,
         ))
     elif call.data == "memes_handler":
-        image_url = memegenerate()  # Replace with the actual URL of the image
+        image_url = memegenerate()  
         await call.message.answer_photo(image_url, reply_to_message_id=call.message.message_id)
 
 
@@ -91,7 +91,7 @@ async def handle_inlines(call: types.CallbackQuery):
 
 @message_router.message(Command('jo-memes'))
 async def get_image(message: types.Message):
-    image_url = memegenerate()  # Replace with the actual URL of the image
+    image_url = memegenerate()  
     await message.answer_photo( image_url, reply_to_message_id=message.message_id)
 
 
