@@ -1,5 +1,9 @@
-# Implementation of this example bot is deployed and it is found by the telegram handle [@A2SV_Remote_Part_1_Example_bot](https://t.me/A2SV_Remote_Part_1_Example_bot)
+# Implementation of this example bot is deployed and it is found by the telegram handle [@mitchewBot]
+(t.me/mitchewBot)
 
-# Done by: Blen
-# Bot Commands implemented: `/start`
+# Done by: Abamitchew Tomas
+# Bot Commands implemented: 
+#`/start`,
+#`/help`,
+#`/a2sv`,
 # Update to check if webhook is working properly
