@@ -26,8 +26,8 @@ To begin this exercise, follow these detailed steps (If you haven't done them al
 
 ### 2. Create a telegram bot that registers users and store their data on temporary storage:
    - Use BotFather to create your third Telegram bot. Then ubild register command and form.
-   - **Task:** Build a telegram bot that registers users and store their data on temporary storage then returns their data at the end.
-
+   - **Task:** - Build a telegram bot that registers users and store their data on temporary storage then returns their data at the end.
+               - Add one or more features that make use of FSM and storage as well
 ### 3. Host on PythonAnywhere
 
    - Use the tutorial below to understand how you can host your bot on PythonAnywhere
