@@ -14,7 +14,7 @@ In this phase, we'll cover essential topics, and although we won't delve into ad
 ## Getting Started
 
 ### 1.Clone this repository
-    ` git clone https://github.com/blenassefa2/Telegram-Bot-Learning-Path.git`
+    ` git clone https://github.com/RealEskalate/Remote-G4-Telegram-Bot-Learning-Path.git`
     
 ### 2. After cloning this repository on your machine, make sure to create your branch with the following format then check out to your branch
 [First_Name].[Task].[PartNumber]
