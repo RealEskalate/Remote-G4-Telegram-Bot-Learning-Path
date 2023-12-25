@@ -4,17 +4,12 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 from ..keyboards import keyboard
 
+
+
 message_router = Router()
 
-@message_router.message(Command('start_with_reply_keyboard'))
+##Start handler
+@message_router.message(Command('start'))
 async def start_handler(message: types.Message):
-    await message.answer("Hello Welcome to Telegram Bot Development Phase", reply_markup=keyboard.first_reply_keyboard)
+    await message.answer("Hello Welcome to Telegram Bot Development Phase", reply_markup=keyboard.register_buttons_reply_keyboard)
 
-
-@message_router.message(Command('start_with_inline_keyboard'))
-async def start_handler(message: types.Message):
-    await message.answer("Hello Welcome to Telegram Bot Development Phase", reply_markup=keyboard.first_inline_keyboard)
-
-@message_router.message(Command('see_callback_buttons'))
-async def start_handler(message: types.Message):
-    await message.answer("Hello Welcome to Telegram Bot Development Phase", reply_markup=keyboard.second_inline_keyboard)
