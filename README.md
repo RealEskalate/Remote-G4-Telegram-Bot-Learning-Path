@@ -9,7 +9,11 @@ Welcome to the Group 4 A2SV Remote Second Year Telegram Bot Development Phase. T
 - ReplyKeyboard, InlineKeyboard, and callbacks
 - Webhook (optional)
 
+<<<<<<< HEAD
 In this phase, we'll cover essential topics, and although we won't delve into advanced concepts, learners interested in exploring Telegram bot development further can find additional carefully selected resources in the 'Additional Resources' section.
+=======
+In this phase, we'll cover essential topics, and although we won't delve into advanced concepts, learners interested in exploring Telegram bot development further can find additional carefully selected resources in the 'Resources' section.
+>>>>>>> 22c7d3815afa89cd7873bf48a433d1e00958ad54
 
 ## Getting Started
 
@@ -21,7 +25,11 @@ In this phase, we'll cover essential topics, and although we won't delve into ad
 
 Example: `git checkout -b Blen.Task.1 `
 
+<<<<<<< HEAD
 ### 3. After getting on your branch, copy the whole folder in the specific task you are in and rename it with your name. 
+=======
+### 3. After getting on your branch, Create a new folder in the specific task you are in and rename it with your name. Your solution must be entirely inside this new folder. 
+>>>>>>> 22c7d3815afa89cd7873bf48a433d1e00958ad54
 Example 
 ![image](https://github.com/blenassefa2/Telegram-Bot-Learning-Path/assets/62964622/02fcbfe9-55a9-495f-9fef-f357ed5a0da1)
 
@@ -42,25 +50,41 @@ In summary, Telegram bot development is an engaging pursuit for software enthusi
 The details for each task parts are clearly defined in the readme of respective tasks but the overall structure looks as follows:
 
 **Part 1: Introduction to Telegram Bot**
+<<<<<<< HEAD
 [Details](https://github.com/blenassefa2/Telegram-Bot-Learning-Path/edit/main/Part_1)
+=======
+[Details](https://github.com/RealEskalate/Remote-G4-Telegram-Bot-Learning-Path/tree/main/Part_1)
+>>>>>>> 22c7d3815afa89cd7873bf48a433d1e00958ad54
 - Understand the recommended folder structure and the concept of long polling.
 - Create your first Telegram bot using BotFather.
 - Host the bot on PythonAnywhere.
 - Develop custom commands with the Aiogram library.
 
 **Part 2: Experiment with Keyboard Types and Callbacks**
+<<<<<<< HEAD
 [Details](https://github.com/blenassefa2/Telegram-Bot-Learning-Path/edit/main/Part_2)
+=======
+[Details](https://github.com/RealEskalate/Remote-G4-Telegram-Bot-Learning-Path/tree/main/Part_2)
+>>>>>>> 22c7d3815afa89cd7873bf48a433d1e00958ad54
 - Explore different keyboard types, understand their uses, and learn how to implement them.
 - Complete tasks involving the creation of inline keyboards and reply keyboards.
 - Develop callback functions and integrate them with inline keyboards for effective user communication.
 
 **Part 3: Concept of Finite State Machine and User Registration**
+<<<<<<< HEAD
 [Details](https://github.com/blenassefa2/Telegram-Bot-Learning-Path/edit/main/Part_3)
+=======
+[Details](https://github.com/RealEskalate/Remote-G4-Telegram-Bot-Learning-Path/tree/main/Part_3)
+>>>>>>> 22c7d3815afa89cd7873bf48a433d1e00958ad54
 - Gain an understanding of the finite state machine concept and how it is used in Telegram bots.
 - Implement user registration using Finite State Machines.
 
 **Part 4: Connect with Database and Finalize**
+<<<<<<< HEAD
 [Details](https://github.com/blenassefa2/Telegram-Bot-Learning-Path/edit/main/Part_4)
+=======
+[Details](hhttps://github.com/RealEskalate/Remote-G4-Telegram-Bot-Learning-Path/tree/mainPart_4)
+>>>>>>> 22c7d3815afa89cd7873bf48a433d1e00958ad54
 - Save user data on MongoDB.
 - Implement other static data components by connecting them to MongoDB.
 - Finalize the project by improving the user interface, fixing bugs, conducting thorough testing, and hosting the bot on PythonAnywhere.
