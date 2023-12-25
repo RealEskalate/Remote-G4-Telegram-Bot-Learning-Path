@@ -6,4 +6,3 @@
 #`/start`,
 #`/help`,
 #`/a2sv`,
-# Update to check if webhook is working properly
