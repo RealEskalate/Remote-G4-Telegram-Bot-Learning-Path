@@ -13,5 +13,8 @@ __pypackages__/
 # Environments
 .env
 env/
+**/venv/
 
+# Zip files
+*/Abel/*.zip
 
