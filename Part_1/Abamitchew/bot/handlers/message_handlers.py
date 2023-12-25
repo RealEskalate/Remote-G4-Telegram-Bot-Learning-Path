@@ -10,3 +10,9 @@ message_router = Router()
 @message_router.message(Command('start'))
 async def start_handler(message: types.Message):
     await message.answer("Hello Welcome to Telegram Bot Development Phase")
+
+##Help Command
+@message_router.message(Command('help'))
+async def start_handler(message: types.Message):
+    await message.answer("Hello , I'm willing to assist you if you need any help")
+
