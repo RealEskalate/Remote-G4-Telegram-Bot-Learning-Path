@@ -13,5 +13,7 @@ __pypackages__/
 # Environments
 .env
 env/
+bot-venv/
+Dagim/
 
 
