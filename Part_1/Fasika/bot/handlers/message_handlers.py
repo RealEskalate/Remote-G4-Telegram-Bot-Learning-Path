@@ -18,6 +18,11 @@ async def help_handler(message: types.Message):
 
 @message_router.message(Command('chat'))
 async def chat_handler(message: types.Message):
-    keyboard = InlineKeyboardMarkup()
-    keyboard.add(InlineKeyboardButton("Open Chat", url="https://t.me/fasilfm"))
+    keyboard = InlineKeyboardMarkup(
+        inline_keyboard=[
+            [
+                InlineKeyboardButton(text="Open Chat", url="https://t.me/fasilfm")
+            ]
+        ]
+    )
     await message.answer("Click the button below to open the chat:", reply_markup=keyboard)
