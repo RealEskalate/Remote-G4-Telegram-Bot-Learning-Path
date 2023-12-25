@@ -15,8 +15,7 @@ message_router = Router()
 @message_router.message(Command('start'))
 async def command_start_handler(message: types.Message):
     await message.answer("Hello Welcome to Yume Bot")
-    await message.answer("""/start -> Welcome to the channel\n/help -> help\n/programming_quote -> 😎\n/programming_joke  -> 😁\n
-    /contact -> contact information 
+    await message.answer("""/start -> Welcome to the channel\n/help -> help\n/programming_quote -> 😎\n/programming_joke  -> 😁\n/contact -> contact information 
     """)
 
 
