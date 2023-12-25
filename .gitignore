@@ -18,4 +18,8 @@ env/
 # Zip files
 */Abel/*.zip
 
+##venv
+venv/
+
+
 
