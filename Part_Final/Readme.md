@@ -1,5 +1,6 @@
-#Congrats on making it to your final task!!!🎊🎉🎊🎉
-![image](https://github.com/RealEskalate/Remote-G4-Telegram-Bot-Learning-Path/assets/62964622/d7cf0634-43c7-4e55-bdfa-33143db14bd3)
+# Congrats on making it to your final task!!!🎊🎉🎊🎉
+
+https://github.com/RealEskalate/Remote-G4-Telegram-Bot-Learning-Path/assets/62964622/48135622-63ed-4d3b-99ec-0b06eeece429
 
 # Part Final: Telegram Bot competition  
 
