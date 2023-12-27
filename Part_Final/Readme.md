@@ -24,7 +24,7 @@ To begin this exercise, follow these detailed steps (If you haven't done them al
 
 ## Task Overview
 
-### 1. Introduction To Connecting To Database And Adding Webhook
+### 1. Main Task
    - Coming Soon!!
   
 ### 2. Host on PythonAnywhere
