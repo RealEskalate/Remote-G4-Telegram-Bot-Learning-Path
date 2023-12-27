@@ -18,7 +18,7 @@ To begin this exercise, follow these detailed steps (If you haven't done them al
    - Ensure platform consistency by creating a new branch with the format `[First_Name].[Task].Final`.
    - **Task:** Run the command `git checkout -b YourName.Task.Final` to create your branch.
 
-3. **Create Your Solutions Folders:**
+3. **Create Your Solution Folder:**
    - Your submission should be inside the Part_Final directory and it should be within a directory called [Your_first_name].
    - **Task:** After finishing your task, make sure to add a readme and add your deployed bot name to it.
 
@@ -30,8 +30,8 @@ To begin this exercise, follow these detailed steps (If you haven't done them al
 ### 2. Host on PythonAnywhere
    - Use the tutorial below to understand how you can host your bot on PythonAnywhere
    - **Task:** Copy all your files and folders within folder to pythonanywhere folder and then run it. Don't forget putting your deployed bot in the readme file within your solution directory.
-   Resource: [tutorial](https://youtu.be/mYlM4RWTHnk) (Turn on subtitles and autotranslate to English)
-     **Note:**  Make sure to kill the consoles of your previous tasks since python anywhere only gives you 2 consoles at a time
+   - Resource: [tutorial](https://youtu.be/mYlM4RWTHnk) (Turn on subtitles and autotranslate to English)
+   - **Note:**  Make sure to kill the consoles of your previous tasks since python anywhere only gives you 2 consoles at a time
      
 ### 3. Send a Pull Request
    - Once tasks are completed, send a pull request with your changes.
