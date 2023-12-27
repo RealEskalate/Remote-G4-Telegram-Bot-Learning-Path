@@ -28,7 +28,9 @@ To begin this exercise, follow these detailed steps (If you haven't done them al
    - Use BotFather to create your fourth telegram bot with commands that will register user, get all users registered so far, get one user using his/her Id, filter users by name, update one user by his/her ID, delete one user by his/her Id.
    - **Task:** Build a telegram bot that registers users and store their data on temporary storage then on to permanenet databeth. After successfull operation the bot should return the registered data back to the user.
    **Note:** If you intend to use mongo db you can check out the Exercise folder. It already has a MongoDb atlas set and its mongodb URL is found on config.py.
-   **Note:** ⚠⚠ If you use the database set in Exercise folder make sure to go to Part_4/Exercise/database/loader.py then change the database name to [Your_First_Name] and the collection name can stay the same as 'mycollection'
+   **Note:** ⚠⚠ If you use the database set in Exercise folder make sure to go to Part_4/Exercise/database/loader.py then change the database name to [Your_First_Name] and the collection name can stay the same as 'mycollection'⚠⚠ 
+     ![image](https://github.com/RealEskalate/Remote-G4-Telegram-Bot-Learning-Path/assets/62964622/be194bdc-ce1c-4c54-a530-241104f7cb9c)
+
 
 ### 3. Implement a webhook to one of your previous bots or a new one
     - Use the resources provided in the learning materials and push a folder with a telegram bot that has incorporated a webhook
