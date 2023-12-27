@@ -25,19 +25,15 @@ To begin this exercise, follow these detailed steps (If you haven't done them al
 ## Task Overview
 
 ### 1. Introduction To Connecting To Database And Adding Webhook
-   - Learn about the concept of FSM and storage for building your Telegram bot project.
-   - **Task:** Read the following [learning material](https://docs.google.com/document/d/1ny7-xi52rpzLJTOwYFy4CVlmPbEYhRiGwwTkoa-YB5s/edit?usp=sharing).
-
-### 2. Main Task
- - Coming soon!!
-      
-### 4. Host on PythonAnywhere
-
+   - Coming Soon!!
+  
+### 2. Host on PythonAnywhere
    - Use the tutorial below to understand how you can host your bot on PythonAnywhere
    - **Task:** Copy all your files and folders within folder to pythonanywhere folder and then run it. Don't forget putting your deployed bot in the readme file within your solution directory.
    Resource: [tutorial](https://youtu.be/mYlM4RWTHnk) (Turn on subtitles and autotranslate to English)
      **Note:**  Make sure to kill the consoles of your previous tasks since python anywhere only gives you 2 consoles at a time
-### 5. Send a Pull Request
+     
+### 3. Send a Pull Request
    - Once tasks are completed, send a pull request with your changes.
    - If your solution is accepted, it will be merged, and you can move on to the next task.
 
