@@ -33,7 +33,7 @@ To begin this exercise, follow these detailed steps (If you haven't done them al
 
 
 ### 3. Implement a webhook to one of your previous bots or a new one
-    - Use the resources provided in the learning materials and push a folder with a telegram bot that has incorporated a webhook
+   - Use the resources provided in the learning materials and push a folder with a telegram bot that has incorporated a webhook
    - **Task:** Create a telegram bot that has webhook implementation inside a folder [Your_first_name_webhook] then submit
    - **Note:** You can add webhook to one of your previous bots or create a new one
       
