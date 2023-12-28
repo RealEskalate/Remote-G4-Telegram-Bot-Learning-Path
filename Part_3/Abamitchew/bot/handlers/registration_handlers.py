@@ -18,33 +18,53 @@ async def start_handler(message: Message, state: FSMContext):
     except:
         await message.answer("Some error occurred")
 
+
 @registration_router.message(Form.role)
 async def form_role(message: Message, state:FSMContext):
     try:
         await state.update_data(role=message.text)
+        await state.set_state(Form.role)
+        await message.answer("Let's register your role")
+    except:
+        await message.answer("Some error occurred")
+
+
+@registration_router.message(Form.phone_number)
+async def form_role(message: Message, state:FSMContext):
+    try:
+        await state.update_data(phone_number=message.text)
         await state.set_state(Form.phone_number)
         await message.answer("Let's register your phone number")
     except:
         await message.answer("Some error occurred")
 
-@registration_router.message(Form.phone_number)
+@registration_router.message(Form.name)
 async def form_phone(message: Message, state:FSMContext):
     try:
-        
-        await state.update_data(phone_number = message.text)
+        await state.update_data(name = message.text)
         await state.set_state(Form.name)
         await message.answer("Let's register your name")
     except:
         await message.answer("Some error occurred")
 
-@registration_router.message(Form.name)
+@registration_router.message(Form.photo)
 async def form_photo(message: Message, state:FSMContext):
     try:
-        await state.update_data(name = message.text)
+        await state.update_data(photo = message.text)
         await state.set_state(Form.photo)
         await message.answer("Let's register your profile picture")
     except:
         await message.answer("Some error occurred")
+
+@registration_router.message(Form.a2sv_batch_no)
+async def form_photo(message: Message, state:FSMContext):
+    try:
+        await state.update_data(a2sv_batch_no = message.text)
+        await state.set_state(Form.a2sv_batch_no)
+        await message.answer("Let's register your profile picture")
+    except:
+        await message.answer("Some error occurred")
+               
 
 @registration_router.message(Form.photo, F.photo)
 async def form_name(message: Message, state:FSMContext):
@@ -64,3 +84,4 @@ async def form_name(message: Message, state:FSMContext):
         )
     except:
         await message.answer("Some error occurred")
+
