@@ -1,8 +1,6 @@
 from aiogram.types import (
     ReplyKeyboardMarkup,
-    InlineKeyboardMarkup,
     KeyboardButton,
-    InlineKeyboardButton,
 )
 
 # Reply Keyboards
@@ -29,5 +27,3 @@ role_reply_keyboard = ReplyKeyboardMarkup(
     input_field_placeholder="What do you want to do?",
     selective=True,
 )
-
-
