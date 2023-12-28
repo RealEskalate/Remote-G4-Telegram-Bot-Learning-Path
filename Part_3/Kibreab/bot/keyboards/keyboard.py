@@ -31,14 +31,3 @@ role_reply_keyboard = ReplyKeyboardMarkup(
 )
 
 
-register_inline_keyboard = InlineKeyboardMarkup(
-    inline_keyboard=[
-        [
-            InlineKeyboardButton(
-                text="Register phone", callback_data="register_phone"
-            ),
-            InlineKeyboardButton(text="Share Location",
-                                 callback_data="share_location"),
-        ]
-    ]
-)
