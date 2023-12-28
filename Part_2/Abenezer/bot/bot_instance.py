@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-TOKEN_API="6895466752:AAF1hqnpjq70RYp6PU7dQsxZ5P8AKiapJxQ"
+TOKEN_API="API"
 
 # For hosting on pythonanywhere use the following commented code
 # from aiogram.client.session.aiohttp import AiohttpSession
@@ -14,7 +14,7 @@ TOKEN_API="6895466752:AAF1hqnpjq70RYp6PU7dQsxZ5P8AKiapJxQ"
 # bot = Bot(
 #     token=TOKEN_API,
 #     parse_mode="HTML",
-#     session=AiohttpSession(proxy="http://proxy.server:3128"),
+#     session=AiohttpSession(proxy="http://"),
 # )
 
 # To run locally
