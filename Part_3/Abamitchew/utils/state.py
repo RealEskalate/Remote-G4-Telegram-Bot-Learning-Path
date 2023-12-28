@@ -5,3 +5,4 @@ class Form(StatesGroup):
     phone_number = State()
     role = State()
     photo = State()
+    a2sv_batch_no=State()
