@@ -3,4 +3,4 @@
 # Done by: Blen
 # Bot Commands implemented: `/start`
 #                         : `/Register`
-# Update to check if webhook is working properly
+#
