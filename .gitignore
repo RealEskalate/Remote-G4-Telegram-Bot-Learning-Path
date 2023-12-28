@@ -13,6 +13,10 @@ __pypackages__/
 # Environments
 .env
 env/
+<<<<<<< HEAD
+bot-venv/
+Dagim/
+=======
 **/venv/
 
 # Zip files
@@ -21,5 +25,6 @@ env/
 ##venv
 venv/
 
+>>>>>>> 8019957f350e7fdcbf351ba15c29462ae2c39f70
 
 
