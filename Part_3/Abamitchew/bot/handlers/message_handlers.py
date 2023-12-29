@@ -12,3 +12,7 @@ async def start_handler(message: types.Message):
         await message.answer("Hello Welcome to Telegram Bot Development Phase", reply_markup=keyboard.first_reply_keyboard)
     except:
         await message.answer("Some error occurred")
+
+@message_router.message(lambda message: message.text == "ℹ Tell me more A2SV")
+async def about_me_option_handler(message: types.Message):
+    await message.answer("A2SV upskills students, Next?")
