@@ -210,7 +210,7 @@ async def handle_inlines(call: types.CallbackQuery, state: FSMContext,) -> None:
         
         # data = await state.get_data()
     if call.data == "handle_show_profile":
-        print("=> " ,dir(call.messsage ))
+        # print("=> " ,dir(call.messsage ))
         
         state_data = await state.get_data()
         # print(not state_data, "on show-profile")
