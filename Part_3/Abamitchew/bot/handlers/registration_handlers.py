@@ -30,7 +30,7 @@ async def form_role(message: Message, state:FSMContext):
 
 
 @registration_router.message(Form.phone_number)
-async def form_role(message: Message, state:FSMContext):
+async def form_phone(message: Message, state:FSMContext):
     try:
         await state.update_data(phone_number=message.text)
         await state.set_state(Form.phone_number)
@@ -39,7 +39,7 @@ async def form_role(message: Message, state:FSMContext):
         await message.answer("Some error occurred")
 
 @registration_router.message(Form.name)
-async def form_phone(message: Message, state:FSMContext):
+async def form_name(message: Message, state:FSMContext):
     try:
         await state.update_data(name = message.text)
         await state.set_state(Form.name)
