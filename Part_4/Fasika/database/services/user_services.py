@@ -18,7 +18,7 @@ async def update_user(id: int, **kwargs) -> User or None:
         {'$set': kwargs},
         return_document=True
     )
-    return User(**user) if user else None
+    return await get_user_by_id(id)
 
 async def delete_user_by_id(id: int) -> bool:
     result = await users_collection.delete_one({'_id': id})
