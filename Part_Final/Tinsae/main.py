@@ -1,37 +1,33 @@
-import asyncio 
 
-from aiogram import Dispatcher
+from aiogram import Bot, executor
 
-from bot.bot_instance import bot
-from bot.handlers.message_handlers import message_router
-from bot.callbacks.callback import callback_router
+from dotenv import load_dotenv
 
+import os
 
-def register_routers(dp: Dispatcher) -> None:
-    """Registers routers"""
-
-    dp.include_router(message_router)
-
-    # callback routers
-    dp.include_router(callback_router)
+from src.utils.connect_db import con
+from src.utils.db_functions import create_table_products, create_table_bank_card, create_table_carts, create_table_orders, create_table_categories
+from src.loader import dp
 
 
+load_dotenv()
+bot = Bot(os.getenv('TOKEN'))
 
 
+async def on_startup(dispatcher):
+    await create_table_products()
+    await create_table_bank_card()
+    await create_table_carts()
+    await create_table_orders()
+    await create_table_categories()
 
-async def main() -> None:
-    """The main function which will execute our event loop and start polling."""
-    try:
-        dp = Dispatcher()
 
-        print('Bot Starting....')
-        register_routers(dp)
-        print("Polling ....")
-        
-        await dp.start_polling(bot)
-    except:
-        print("Some error occurred")
-    
+async def on_shutdown(dispatcher):
+    con.close()
 
-if __name__ == "__main__":
-    asyncio.run(main())
+if __name__ == '__main__':
+    from src.handlers.admins import admin_panel
+    from src.handlers.users import user_panel
+    print("Bot started successfully")
+    executor.start_polling(dp, on_startup=on_startup, on_shutdown=on_shutdown)
+    print("Bot stopped")
